@@ -1,0 +1,195 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: #f3f3f3;
+}
+
+.kanban-column {
+  border-radius: 5px;
+  padding: 10px;
+  width: 30%;
+}
+.kanban-column-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+  font-weight: bold;
+  font-size: large;
+}
+.left-content {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+.right-content {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+.task-count {
+  color: #a7a6a6;
+  font-weight: 500;
+}
+.icons {
+  width: 24px;
+  height: 24px;
+}
+.priority-icon {
+  width: 24px;
+  height: 24px;
+}
+.status-icon {
+  margin-right: 5px;
+  height: 24px;
+  width: 24px;
+}
+
+.ticket-card {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.ticket-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.initials-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.user-header {
+  display: flex;
+  align-items: center;
+}
+.user-name {
+  margin-left: 8px;
+  font-weight: bold;
+  color: #333;
+}
+.ticket-title {
+  margin-top: 0px;
+}
+.ticket-id,
+.ticket-tag {
+  color: #787373;
+  font-weight: 500;
+}
+
+.ticket-info {
+  display: flex;
+  align-items: center;
+}
+.priority-btn {
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  height: 24px;
+}
+
+.features-btn {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  height: 24px;
+  font-weight: 400;
+}
+.features-btn .circle {
+  width: 10px;
+  height: 10px;
+  background-color: #b2aeae;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.controls-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.display-control {
+  display: flex;
+  align-items: center;
+}
+
+.display-button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.display-button:hover {
+  background-color: #f0f0f0;
+}
+
+.display-icon {
+  margin-right: 5px;
+}
+
+.down-arrow-icon {
+  margin-left: 5px;
+  width: 12px;
+  height: 12px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px;
+  z-index: 100;
+  width: 200px;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.control label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #787373;
+  margin-right: 10px;
+}
+
+.control select {
+  padding: 5px 30px 5px 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 14px;
+}
